@@ -427,29 +427,4 @@ while SAFETY != 2:
     pyautogui.moveTo(850, 700, 0.1)
     Click()
 
-# im1 = Image.open('level.PNG')
-# im = ImageGrab.grab(bbox=(840, 550, 840 + 255, 550 + 57))  # (x, moves top left corner of photo vertically, length, lower value decreases vertical seen) first 2 values have to be less than last 2 values?
-# im.save("level2.PNG")
-# i = 1
 
-# a = cv2.imread("level.PNG")
-# b = cv2.imread("level2.PNG")
-# difference = cv2.subtract(a, b)
-# result = not np.any(difference)
-# if result is True:
-#     print("Pictures are the same")
-# else:
-#     cv2.imwrite("ed.jpg", difference)
-#     print("Pictures are different, the difference is stored as ed.jpg")
-
-# while i != 2:
-#     time.sleep(2)
-#     # im1.show()
-#     i = i + 1
-# #     if im1 == im:
-# #         print("yes")
-# #         exit()
-#
-#     else:
-#         print("no")
-#         exit()
